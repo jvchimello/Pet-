@@ -12,20 +12,31 @@ header ul{display: flex;
           list-style:none;
         margin-right:18px;}
 .servicos {display: flex;
-            gap:2vh;
-           
-                  }
+            gap:4vh;
+            margin-left:3vh;
+                      }
+.toza {max-width:17vh;
+       border:3px solid rgb(117, 89, 71);
+       height:fit-content }
 .toza h1{font-size:15px;
           font-weight:300;
           text-align: center;
           border-bottom:2px solid rgb(116, 115, 106);}
-.toza img{max-width:15.1vh;
+.toza img{max-width:17vh;
+          border-radius:100px;
           }
+.vet{
+     margin-bottom:5vh;
+     border:3px solid rgb(117, 89, 71);
+     }
+        
 .vet h1{font-size:15px;
         font-weight: 300;
         text-align: center;
-        border-bottom:2px solid rgb(116, 115, 106);}
+        border-bottom:2px solid rgb(116, 115, 106);
+        }
 
      
-.vet img{max-width:17vh;
-         max-height:8.5vh;}
+.vet img{width:17vh;
+        border-radius:100px;
+          }
