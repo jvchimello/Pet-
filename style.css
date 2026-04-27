@@ -3,27 +3,61 @@ body{margin:0;
      font-family:'Times New Roman', Times, serif;}
 header {display: flex;
         justify-content: space-between;
-        background-color:rgba(245, 245, 249);}
-header img{max-width:15vh;
+        background-color:bisque;
+        max-height:4vw; }
+header h1{display: flex;
+          justify-content: center;
+          align-items: center;
+          color:rgb(116, 64, 15);
+          margin-left:2vw;}
+header h1::after{content:"©";}
+header img{max-width:20vh;
             margin-left:18px;
-            border-radius:200px;}
+           }
 header ul{display: flex;
           gap:20px;
           list-style:none;
-        margin-right:18px;}
+        margin-right:18px;
+        max-height:2vw;}
+ul li {
+       
+       background-color: bisque;
+       display: flex;}
+ul li:hover{background-color:rgb(117, 89, 71);
+            }
+ul li a:hover{color:bisque;}
+ul li a{text-decoration: none;
+        color:rgb(116, 64, 15);
+         position: relative; 
+         top:0.5rem;
+         }
+.hero{background-image:url(/img/hero.avif);
+      background-size: cover;
+      background-position:center;
+       background-repeat: no-repeat;
+        height:55vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+.hero-txt{border:2px solid white;
+          font-size:clamp(4rem,2vw,12vw);
+          color:bisque;
+          background-color: rgba(250, 235, 215, 0.322);}
+.hero-txt:hover{background-color:rgba(250, 235, 215, 0.582) ;}
+.hero-txt h1{ text-shadow:20px 10px 10px rgb(117, 89, 71);}
 .servicos {display: flex;
             gap:4vh;
-            margin-left:3vh;
+            margin:0 0 10px 7px;
                       }
-.toza {max-width:17vh;
+.toza {max-width:25vh;
        border:3px solid rgb(117, 89, 71);
        height:fit-content }
 .toza h1{font-size:15px;
           font-weight:300;
           text-align: center;
           border-bottom:2px solid rgb(116, 115, 106);}
-.toza img{max-width:17vh;
-          border-radius:100px;
+.toza img{max-width:25vh;
+          
           }
 .vet{
      margin-bottom:5vh;
@@ -37,6 +71,6 @@ header ul{display: flex;
         }
 
      
-.vet img{width:17vh;
-        border-radius:100px;
+.vet img{width:25vh;
+        
           }
