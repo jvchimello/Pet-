@@ -20,16 +20,16 @@ header ul{display: flex;
         margin-right:18px;
         max-height:2vw;}
 ul li {
-       
+       padding:8px;
        background-color: bisque;
        display: flex;}
 ul li:hover{background-color:rgb(117, 89, 71);
-            }
+            border-radius:25px;
+             }
 ul li a:hover{color:bisque;}
 ul li a{text-decoration: none;
         color:rgb(116, 64, 15);
-         position: relative; 
-         top:0.5rem;
+        
          }
 .hero{background-image:url(/img/hero.avif);
       background-size: cover;
