@@ -2,36 +2,76 @@
 <html>
  <head> 
  <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
  <title>Project-1</title>
 </head>
  <body>
 <header>
 <h1>PET LIFE</h1>
- <ul>
-  <li><a href="#">Sobre</a></li>
-  <li><a href="#">Contato</a></li>
-  <li><a href="#">Serviços</a></li>  
- </ul>
+<nav>
+    <details>
+    <summary>Produtos</summary>
+    <div class="links-abaixo">
+      <a href="#">Toza</a>
+      <a href="#">Veterinário</a>
+      <a href="#">Passeio</a>
+    </div>
+  </details>
+
+  <details>
+    <summary>Institucional</summary>
+    <div class="links-abaixo">
+      <a href="#">Sobre nós</a>
+      <a href="#">Contato</a>
+    </div>
+  </details>
+</nav>
 </header>
 <main>
 <div class="hero">
 <div class="hero-txt">
 <h1>PET LIFE</h1>
-
 </div>    
 </div>
-<section>
+<section class="serv">
 <article class="servicos">
 <section class="toza">
     <h1>Fazemos Toza</h1>
     <img src="img/shutterstock_144255763-970x550.jpg">
+    <button class="bt"><a href="#">Veja mais</a></button>
 </section>
 <section class="vet">
     <h1>Temos Veterinários</h1>
-    <img src="img/cachorronoveterinario-970x550.webp">    
+    <img src="img/cachorronoveterinario-970x550.webp">  
+    <button class="bt"><a href="#">Veja mais</a></button>  
 </section>
+<section class="passeio">
+    <h1>Temos passeios</h1>
+    <img src="img/Cachorro-filhote-passeio-970x550.webp" >
+    <button class="bt"><a href="#">Veja mais</a></button>    
+</section>
+
 </article>
-</section>
-</main> 
+
+</main>
+<aside>
+  <section class="appointment-card">
+    <h3>Agende agora</h3>
+    <button>Marcar Tosa ou Consulta</button>
+  </section>
+
+  <section class="contact-info">
+    <p><strong>Emergência Veterinária:</strong></p>
+    <a href="tel:17999999999">(17) 99999-9999</a>
+  </section>
+
+  <section class="social-widget">
+    <h4>Siga nossos amigos</h4>
+    <div class="insta-feed">
+      </div>
+  </section>
+</aside>
 </body>   
 </html>
